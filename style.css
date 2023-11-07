@@ -4,12 +4,22 @@
   box-sizing: border-box;
 }
 
+main {
+}
+
 img {
   max-width: 100%;
 }
 body {
   background-color: hsl(0, 0%, 27%);
   min-height: 100svh;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: start;
+  justify-content: start;
 }
 
 h1 {
@@ -21,7 +31,6 @@ h1 {
 h2 {
   color: whitesmoke;
   font-size: 15px;
-  text-align: start;
 }
 
 header {
