@@ -4,36 +4,71 @@
   box-sizing: border-box;
 }
 
-main {
+.bg-img {
+  min-height: 100svh;
+  background-color: darkslategray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-img {
-  max-width: 100%;
+.one {
+  background-image: url(/Images/hammerfest-sentrum-hmk-00281.jpg);
 }
+
+.two {
+  background-image: url(/Images/Hammerfest\ Kirke.jpg);
+}
+
+.three {
+  background-image: url(/Images/Meridian\ Støtta.jpg);
+}
+
+.four {
+  background-image: url(/Images/Kuben.jpg);
+}
+
+.info {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgb(39, 39, 39);
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+button {
+  background-color: gray;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 body {
-  background-color: hsl(0, 0%, 27%);
   min-height: 100svh;
 }
 
-.flex {
-  display: flex;
-  flex-flow: row wrap;
-  text-align: start;
-  justify-content: start;
-}
-
 h1 {
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: rgb(39, 39, 39);
   color: whitesmoke;
   font-size: 40px;
   text-align: center;
 }
 
-h2 {
-  color: whitesmoke;
-  font-size: 15px;
-}
-
-header {
-  max-width: 1185px;
-  min-height: 400px;
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 3px;
+  background-color: wheat;
+  color: rgb(0, 0, 0);
 }
