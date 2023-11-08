@@ -40,12 +40,32 @@
   font-size: 20px;
 }
 
+.top-link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.home-btn {
+  margin-left: 50px;
+}
+
+.top-buttons {
+  margin-right: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
 button {
   background-color: gray;
   color: whitesmoke;
-  padding: 15px 32px;
+  padding: 10px 15px;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
   display: inline-block;
   font-size: 18px;
   margin: 4px 2px;
@@ -66,7 +86,7 @@ h1 {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   padding: 3px;
   background-color: wheat;
