@@ -17,19 +17,19 @@
 }
 
 .one {
-  background-image: url(/assets/Images/hammerfest-sentrum-hmk-00281.jpg);
+  background-image: url(./assets/Images/hammerfest-sentrum-hmk-00281.jpg);
 }
 
 .two {
-  background-image: url(/assets/Images/Hammerfest\ Kirke.jpg);
+  background-image: url(./assets/Images/Hammerfest\ Kirke.jpg);
 }
 
 .three {
-  background-image: url(/assets/Images/Meridian\ Støtta.jpg);
+  background-image: url(./assets/Images/Meridian\ Støtta.jpg);
 }
 
 .four {
-  background-image: url(/assets/Images/Kuben.jpg);
+  background-image: url(./assets/Images/Kuben.jpg);
 }
 
 .info {
@@ -70,6 +70,10 @@ button {
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+body {
+  min-height: 100svh;
 }
 
 h1 {
