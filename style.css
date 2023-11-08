@@ -72,10 +72,6 @@ button {
   cursor: pointer;
 }
 
-body {
-  min-height: 100svh;
-}
-
 h1 {
   border-radius: 15px;
   padding: 10px 20px;
